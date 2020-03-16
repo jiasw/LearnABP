@@ -4,14 +4,16 @@ using HelloABP.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HelloABP.Migrations
 {
     [DbContext(typeof(HelloABPDbContext))]
-    partial class HelloABPDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200316152054_addnewentity")]
+    partial class addnewentity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
+using Abp.Domain.Entities;
 using Abp.Domain.Entities.Auditing;
 
 namespace HelloABP.PhoneBooks.PhoneNumbers
 {
     [Table("PhoneNumber")]
-    public class PhoneNumber : IHasCreationTime
+    public class PhoneNumber :Entity<long> ,IHasCreationTime
     {
 
         [Required]
