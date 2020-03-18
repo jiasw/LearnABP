@@ -5,11 +5,13 @@ namespace HelloABP.Migrations
 {
     public partial class addnewentity : Migration
     {
+       
+
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.EnsureSchema(
                 name: "PB");
-
+            
             migrationBuilder.CreateTable(
                 name: "Person",
                 schema: "PB",
