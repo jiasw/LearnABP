@@ -45,7 +45,12 @@ namespace HelloABP.Web.Startup
                         icon: "fas fa-theater-masks",
                         permissionDependency: new SimplePermissionDependency(PermissionNames.Pages_Roles)
                             )
-                )
+                ).AddItem(new MenuItemDefinition(PageNames.Persons,
+                L("Persons"),
+                url:"Persons",
+                icon: "fas fa-info-circle",
+               permissionDependency: new SimplePermissionDependency(PermissionNames.Pages_Roles)
+                ))
                 .AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
