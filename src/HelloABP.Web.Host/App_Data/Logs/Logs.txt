@@ -839,3 +839,426 @@ INFO  2020-03-23 20:41:28,157 [15   ] c.Infrastructure.ControllerActionInvoker -
 INFO  2020-03-23 20:41:28,160 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
 INFO  2020-03-23 20:41:28,162 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 125.8723ms 200 application/json; charset=utf-8
 INFO  2020-03-23 20:41:28,293 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 242.3084ms 200 application/json;charset=utf-8
+DEBUG 2020-03-24 21:55:26,698 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-24 21:55:26,825 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-03-24 21:55:26,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.Web.Host.Startup.HelloABPWebHostModule, HelloABP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPWebCoreModule, HelloABP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPApplicationModule, HelloABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPCoreModule, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.EntityFrameworkCore.HelloABPEntityFrameworkModule, HelloABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:26,846 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-03-24 21:55:26,937 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 21:55:26,938 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 21:55:26,938 [1    ] o.Configuration.LanguageManagementConfig - Converted HelloABP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 21:55:26,938 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 21:55:27,323 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HelloABP.EntityFrameworkCore.HelloABPDbContext, HelloABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 21:55:28,418 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-24 21:55:28,513 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-24 21:55:28,564 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-24 21:55:28,584 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HelloABP
+DEBUG 2020-03-24 21:55:28,616 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-24 21:55:28,973 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-24 21:55:29,154 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HelloABP.MultiTenancy.Tenant, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HelloABP.Authorization.Users.User, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-03-24 21:55:29,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-03-24 21:55:29,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-03-24 21:55:29,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Users.Dto.CreateUserDto
+DEBUG 2020-03-24 21:55:29,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Users.Dto.UserDto
+DEBUG 2020-03-24 21:55:29,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-24 21:55:29,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-24 21:55:29,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Roles.Dto.PermissionDto
+DEBUG 2020-03-24 21:55:29,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2020-03-24 21:55:29,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.PhoneBooks.Dtos.PersonListDto
+DEBUG 2020-03-24 21:55:29,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-24 21:55:29,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.MultiTenancy.Dto.TenantDto
+INFO  2020-03-24 21:55:31,967 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-03-24 21:55:32,310 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\贾世唯\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-03-24 21:55:32,396 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-03-24 21:55:32,497 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host)'
+INFO  2020-03-24 21:55:38,644 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HelloABP.Web.Host.Controllers.HomeController (HelloABP.Web.Host).
+INFO  2020-03-24 21:55:40,096 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host) - Validation state: Valid
+INFO  2020-03-24 21:55:40,104 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5476ms.
+INFO  2020-03-24 21:55:40,393 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-03-24 21:55:40,401 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host) in 1750.8043ms
+INFO  2020-03-24 21:55:40,406 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host)'
+INFO  2020-03-24 21:55:40,430 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8033.4265ms 302 
+INFO  2020-03-24 21:55:40,445 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-03-24 21:55:40,681 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 232.947ms 200 text/html;charset=utf-8
+INFO  2020-03-24 21:55:41,027 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-03-24 21:55:41,046 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 21:55:41,082 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HelloABP.Web.Host.Controllers.AntiForgeryController (HelloABP.Web.Host).
+INFO  2020-03-24 21:55:41,091 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-03-24 21:55:41,212 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-03-24 21:55:41,229 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) - Validation state: Valid
+INFO  2020-03-24 21:55:41,261 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 18.9214ms.
+INFO  2020-03-24 21:55:41,331 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-03-24 21:55:41,351 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 143.9312ms 200 image/png
+INFO  2020-03-24 21:55:41,401 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 21:55:41,468 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) in 364.0064ms
+INFO  2020-03-24 21:55:41,482 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 21:55:41,495 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 460.1421ms 200 application/json; charset=utf-8
+INFO  2020-03-24 21:55:41,892 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 804.2826ms 200 application/json;charset=utf-8
+INFO  2020-03-24 21:56:44,000 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 79
+INFO  2020-03-24 21:56:44,011 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 21:56:44,013 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 21:56:44,041 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:56:44,072 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+INFO  2020-03-24 21:56:44,823 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) - Validation state: Valid
+INFO  2020-03-24 21:56:50,183 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 5357.6971ms.
+INFO  2020-03-24 21:56:50,221 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 21:56:50,224 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 6150.1795ms
+INFO  2020-03-24 21:56:50,227 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:56:50,230 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6230.3803ms 200 application/json; charset=utf-8
+INFO  2020-03-24 21:57:20,751 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2020-03-24 21:57:20,754 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 21:57:20,757 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 21:57:20,761 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core)'
+INFO  2020-03-24 21:57:20,771 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[HelloABP.Models.TokenAuth.AuthenticateResultModel] Authenticate(HelloABP.Models.TokenAuth.AuthenticateModel) on controller HelloABP.Controllers.TokenAuthController (HelloABP.Web.Core).
+INFO  2020-03-24 21:57:21,130 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core) - Validation state: Valid
+INFO  2020-03-24 21:57:21,952 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 819.2008ms.
+INFO  2020-03-24 21:57:21,963 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 21:57:21,968 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core) in 1194.3886ms
+INFO  2020-03-24 21:57:21,970 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core)'
+INFO  2020-03-24 21:57:21,973 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1221.582ms 200 application/json; charset=utf-8
+INFO  2020-03-24 21:57:21,991 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-03-24 21:57:22,000 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.7351ms 200 text/html;charset=utf-8
+INFO  2020-03-24 21:57:22,222 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-03-24 21:57:22,278 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-03-24 21:57:22,282 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 21:57:22,298 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 21:57:22,453 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 180.0708ms 200 application/json;charset=utf-8
+ERROR 2020-03-24 21:57:22,676 [14   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18302628891539275818", Request ID "80000030-0001-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 不能在具有唯一索引“IX_AbpSettings_TenantId_Name_UserId”的对象“dbo.AbpSettings”中插入重复键的行。重复键值为 (2, Abp.Localization.DefaultLanguageName, 3)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:88aca45e-bd11-411e-937e-97869d117acc
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Configuration.SettingStore.CreateAsync(SettingInfo settingInfo)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous(IInvocation invocation)
+   at Abp.Configuration.SettingManager.InsertOrUpdateOrDeleteSettingValueAsync(String name, String value, Nullable`1 tenantId, Nullable`1 userId)
+   at Abp.Configuration.SettingManager.ChangeSettingForUserAsync(UserIdentifier user, String name, String value)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous(IInvocation invocation)
+   at Abp.AspNetCore.Localization.AbpUserRequestCultureProvider.DetermineProviderCultureResult(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2020-03-24 21:57:22,687 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 464.7138ms 500 
+INFO  2020-03-24 21:57:38,016 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 74
+INFO  2020-03-24 21:57:38,019 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 21:57:38,022 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 21:57:38,031 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 21:57:38,051 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:57:38,057 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+ERROR 2020-03-24 21:57:38,063 [15   ] idateAntiforgeryTokenAuthorizationFilter - The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-03-24 21:57:38,067 [15   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-03-24 21:57:38,073 [15   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-03-24 21:57:38,075 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 15.5561ms
+INFO  2020-03-24 21:57:38,079 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:57:38,083 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.4638ms 400 
+INFO  2020-03-24 21:58:02,873 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 81
+INFO  2020-03-24 21:58:02,876 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 21:58:02,879 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 21:58:02,884 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 21:58:02,890 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:58:02,902 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+ERROR 2020-03-24 21:58:02,906 [4    ] idateAntiforgeryTokenAuthorizationFilter - The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-03-24 21:58:02,912 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-03-24 21:58:02,915 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-03-24 21:58:02,918 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 12.2273ms
+INFO  2020-03-24 21:58:02,922 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:58:02,929 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.9417ms 400 
+INFO  2020-03-24 21:58:21,981 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 79
+INFO  2020-03-24 21:58:21,984 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 21:58:21,986 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 21:58:21,990 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 21:58:21,993 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:58:22,002 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+ERROR 2020-03-24 21:58:22,004 [4    ] idateAntiforgeryTokenAuthorizationFilter - The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-03-24 21:58:22,008 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-03-24 21:58:22,011 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-03-24 21:58:22,014 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 9.4387ms
+INFO  2020-03-24 21:58:22,018 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:58:22,027 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.6516ms 400 
+INFO  2020-03-24 21:58:51,297 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 79
+INFO  2020-03-24 21:58:51,300 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 21:58:51,303 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 21:58:51,306 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 21:58:51,331 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:58:51,337 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+ERROR 2020-03-24 21:58:51,338 [4    ] idateAntiforgeryTokenAuthorizationFilter - The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-03-24 21:58:51,341 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-03-24 21:58:51,344 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-03-24 21:58:51,346 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 6.5203ms
+INFO  2020-03-24 21:58:51,349 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:58:51,353 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.4559ms 400 
+INFO  2020-03-24 21:58:52,082 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 79
+INFO  2020-03-24 21:58:52,085 [26   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 21:58:52,088 [26   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 21:58:52,092 [26   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 21:58:52,095 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:58:52,104 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+ERROR 2020-03-24 21:58:52,105 [26   ] idateAntiforgeryTokenAuthorizationFilter - The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-03-24 21:58:52,108 [26   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-03-24 21:58:52,110 [26   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-03-24 21:58:52,113 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 6.2906ms
+INFO  2020-03-24 21:58:52,115 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:58:52,118 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.9965ms 400 
+INFO  2020-03-24 21:59:21,940 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-03-24 21:59:21,946 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.7173ms 200 text/html;charset=utf-8
+INFO  2020-03-24 21:59:22,354 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-03-24 21:59:22,357 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 21:59:22,368 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HelloABP.Web.Host.Controllers.AntiForgeryController (HelloABP.Web.Host).
+INFO  2020-03-24 21:59:22,399 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) - Validation state: Valid
+INFO  2020-03-24 21:59:22,407 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.9978ms.
+INFO  2020-03-24 21:59:22,416 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-03-24 21:59:22,462 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 21:59:22,470 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) in 95.9285ms
+INFO  2020-03-24 21:59:22,473 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 21:59:22,476 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 122.2856ms 200 application/json; charset=utf-8
+INFO  2020-03-24 21:59:22,487 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.3563ms 200 application/json;charset=utf-8
+INFO  2020-03-24 21:59:29,533 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 78
+INFO  2020-03-24 21:59:29,536 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 21:59:29,538 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 21:59:29,542 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:59:29,553 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+INFO  2020-03-24 21:59:29,586 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) - Validation state: Valid
+INFO  2020-03-24 21:59:31,922 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2333.1505ms.
+INFO  2020-03-24 21:59:31,934 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 21:59:31,938 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 2381.9777ms
+INFO  2020-03-24 21:59:31,941 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 21:59:31,944 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2411.0956ms 200 application/json; charset=utf-8
+DEBUG 2020-03-24 22:01:20,393 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-24 22:01:20,495 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-03-24 22:01:20,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.Web.Host.Startup.HelloABPWebHostModule, HelloABP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPWebCoreModule, HelloABP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPApplicationModule, HelloABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPCoreModule, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,517 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.EntityFrameworkCore.HelloABPEntityFrameworkModule, HelloABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,517 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,517 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:20,524 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-03-24 22:01:20,608 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 22:01:20,608 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 22:01:20,608 [1    ] o.Configuration.LanguageManagementConfig - Converted HelloABP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 22:01:20,608 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 22:01:20,976 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HelloABP.EntityFrameworkCore.HelloABPDbContext, HelloABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:01:21,968 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-24 22:01:22,027 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-24 22:01:22,074 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-24 22:01:22,094 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HelloABP
+DEBUG 2020-03-24 22:01:22,125 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-24 22:01:22,366 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-24 22:01:22,516 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HelloABP.MultiTenancy.Tenant, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HelloABP.Authorization.Users.User, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-03-24 22:01:22,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-03-24 22:01:22,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-03-24 22:01:22,578 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Users.Dto.CreateUserDto
+DEBUG 2020-03-24 22:01:22,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Users.Dto.UserDto
+DEBUG 2020-03-24 22:01:22,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-24 22:01:22,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-24 22:01:22,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Roles.Dto.PermissionDto
+DEBUG 2020-03-24 22:01:22,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2020-03-24 22:01:22,580 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.PhoneBooks.Dtos.PersonListDto
+DEBUG 2020-03-24 22:01:22,580 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-24 22:01:22,580 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.MultiTenancy.Dto.TenantDto
+INFO  2020-03-24 22:01:25,061 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-03-24 22:01:25,359 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\贾世唯\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-03-24 22:01:25,433 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-03-24 22:01:25,540 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host)'
+INFO  2020-03-24 22:01:30,304 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HelloABP.Web.Host.Controllers.HomeController (HelloABP.Web.Host).
+INFO  2020-03-24 22:01:31,550 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host) - Validation state: Valid
+INFO  2020-03-24 22:01:31,561 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6676ms.
+INFO  2020-03-24 22:01:31,790 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-03-24 22:01:31,798 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host) in 1487.2887ms
+INFO  2020-03-24 22:01:31,801 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host)'
+INFO  2020-03-24 22:01:31,821 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6388.2061ms 302 
+INFO  2020-03-24 22:01:31,844 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-03-24 22:01:32,032 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 195.7687ms 200 text/html;charset=utf-8
+INFO  2020-03-24 22:01:32,297 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-03-24 22:01:32,310 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 22:01:32,327 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HelloABP.Web.Host.Controllers.AntiForgeryController (HelloABP.Web.Host).
+INFO  2020-03-24 22:01:32,355 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) - Validation state: Valid
+INFO  2020-03-24 22:01:32,357 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-03-24 22:01:32,366 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 8.5226ms.
+INFO  2020-03-24 22:01:32,396 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 22:01:32,422 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) in 91.9784ms
+INFO  2020-03-24 22:01:32,425 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 22:01:32,428 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 131.8131ms 200 application/json; charset=utf-8
+INFO  2020-03-24 22:01:32,554 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 195.3341ms 200 application/json;charset=utf-8
+INFO  2020-03-24 22:01:36,415 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2020-03-24 22:01:36,422 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 22:01:36,425 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 22:01:36,429 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core)'
+INFO  2020-03-24 22:01:36,447 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[HelloABP.Models.TokenAuth.AuthenticateResultModel] Authenticate(HelloABP.Models.TokenAuth.AuthenticateModel) on controller HelloABP.Controllers.TokenAuthController (HelloABP.Web.Core).
+INFO  2020-03-24 22:01:37,424 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core) - Validation state: Valid
+INFO  2020-03-24 22:01:37,862 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 435.3249ms.
+INFO  2020-03-24 22:01:37,872 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 22:01:37,877 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core) in 1427.753ms
+INFO  2020-03-24 22:01:37,880 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Controllers.TokenAuthController.Authenticate (HelloABP.Web.Core)'
+INFO  2020-03-24 22:01:37,884 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1470.0643ms 200 application/json; charset=utf-8
+INFO  2020-03-24 22:01:37,895 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-03-24 22:01:37,900 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.0675ms 200 text/html;charset=utf-8
+INFO  2020-03-24 22:01:38,016 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-03-24 22:01:38,055 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-03-24 22:01:38,093 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 22:01:38,095 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 22:01:38,131 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 22:01:38,137 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HelloABP.Web.Host.Controllers.AntiForgeryController (HelloABP.Web.Host).
+INFO  2020-03-24 22:01:38,192 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) - Validation state: Valid
+INFO  2020-03-24 22:01:38,196 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 1.0593ms.
+INFO  2020-03-24 22:01:38,206 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 22:01:38,209 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) in 68.9659ms
+INFO  2020-03-24 22:01:38,212 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 22:01:38,215 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 200.1644ms 200 application/json; charset=utf-8
+INFO  2020-03-24 22:01:38,218 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 172.9727ms 200 application/json;charset=utf-8
+INFO  2020-03-24 22:01:43,851 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 78
+INFO  2020-03-24 22:01:43,855 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 22:01:43,858 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 22:01:43,888 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 22:01:43,891 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 22:01:43,900 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+INFO  2020-03-24 22:01:44,453 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) - Validation state: Valid
+INFO  2020-03-24 22:01:47,397 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2941.7126ms.
+INFO  2020-03-24 22:01:47,422 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 22:01:47,425 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 3522.9876ms
+INFO  2020-03-24 22:01:47,428 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 22:01:47,430 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3579.7214ms 200 application/json; charset=utf-8
+DEBUG 2020-03-24 22:04:52,761 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-24 22:04:52,864 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-03-24 22:04:52,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.Web.Host.Startup.HelloABPWebHostModule, HelloABP.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPWebCoreModule, HelloABP.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPApplicationModule, HelloABP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.HelloABPCoreModule, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HelloABP.EntityFrameworkCore.HelloABPEntityFrameworkModule, HelloABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:52,888 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-03-24 22:04:52,969 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 22:04:52,970 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 22:04:52,970 [1    ] o.Configuration.LanguageManagementConfig - Converted HelloABP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 22:04:52,970 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-24 22:04:53,300 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HelloABP.EntityFrameworkCore.HelloABPDbContext, HelloABP.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-24 22:04:54,331 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-24 22:04:54,389 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-24 22:04:54,433 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-24 22:04:54,453 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HelloABP
+DEBUG 2020-03-24 22:04:54,487 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-24 22:04:54,776 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-24 22:04:54,956 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HelloABP.MultiTenancy.Tenant, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HelloABP.Authorization.Users.User, HelloABP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-03-24 22:04:55,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-03-24 22:04:55,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-03-24 22:04:55,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Users.Dto.CreateUserDto
+DEBUG 2020-03-24 22:04:55,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Users.Dto.UserDto
+DEBUG 2020-03-24 22:04:55,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-24 22:04:55,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-24 22:04:55,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.Roles.Dto.PermissionDto
+DEBUG 2020-03-24 22:04:55,019 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2020-03-24 22:04:55,019 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.PhoneBooks.Dtos.PersonListDto
+DEBUG 2020-03-24 22:04:55,019 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-24 22:04:55,019 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HelloABP.MultiTenancy.Dto.TenantDto
+INFO  2020-03-24 22:04:57,475 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-03-24 22:04:57,757 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\贾世唯\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-03-24 22:04:57,830 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-03-24 22:04:57,923 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host)'
+INFO  2020-03-24 22:05:02,863 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HelloABP.Web.Host.Controllers.HomeController (HelloABP.Web.Host).
+INFO  2020-03-24 22:05:04,237 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host) - Validation state: Valid
+INFO  2020-03-24 22:05:04,243 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4031ms.
+INFO  2020-03-24 22:05:04,445 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-03-24 22:05:04,452 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host) in 1583.5857ms
+INFO  2020-03-24 22:05:04,455 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.HomeController.Index (HelloABP.Web.Host)'
+INFO  2020-03-24 22:05:04,473 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6643.3204ms 302 
+INFO  2020-03-24 22:05:04,486 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-03-24 22:05:04,645 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 164.0455ms 200 text/html;charset=utf-8
+INFO  2020-03-24 22:05:04,866 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-03-24 22:05:04,912 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-03-24 22:05:05,011 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 22:05:05,011 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 22:05:05,122 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 22:05:05,131 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HelloABP.Web.Host.Controllers.AntiForgeryController (HelloABP.Web.Host).
+INFO  2020-03-24 22:05:05,180 [12   ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) - Validation state: Valid
+INFO  2020-03-24 22:05:05,190 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 7.8038ms.
+INFO  2020-03-24 22:05:05,207 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 22:05:05,226 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host) in 92.6855ms
+INFO  2020-03-24 22:05:05,228 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.Web.Host.Controllers.AntiForgeryController.SetCookie (HelloABP.Web.Host)'
+INFO  2020-03-24 22:05:05,231 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 366.4819ms 200 application/json; charset=utf-8
+INFO  2020-03-24 22:05:05,389 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 477.5635ms 200 application/json;charset=utf-8
+INFO  2020-03-24 22:05:11,798 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePerson application/json-patch+json 78
+INFO  2020-03-24 22:05:11,803 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-03-24 22:05:11,806 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-03-24 22:05:11,811 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-03-24 22:05:11,815 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 22:05:11,835 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task CreateOrUpdatePersonAsync(HelloABP.PhoneBooks.Dtos.CreateOrUpdatePersonInput) on controller HelloABP.PhoneBooks.PersonAppService (HelloABP.Application).
+INFO  2020-03-24 22:05:12,646 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) - Validation state: Valid
+INFO  2020-03-24 22:05:12,673 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 25.0193ms.
+INFO  2020-03-24 22:05:12,703 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-24 22:05:12,706 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application) in 869.248ms
+INFO  2020-03-24 22:05:12,709 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HelloABP.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (HelloABP.Application)'
+INFO  2020-03-24 22:05:12,711 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 914.5295ms 200 application/json; charset=utf-8

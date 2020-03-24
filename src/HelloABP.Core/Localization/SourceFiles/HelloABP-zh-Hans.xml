@@ -98,6 +98,8 @@
     <text name="EditTenant">编辑租户</text>
     <text name="SearchWithThreeDot">搜索...</text>
     <text name="Persons">联系人</text>
+    <text name="Address">家庭住址</text>
+    <text name="CreateTime">创建时间</text>
   </texts>
 </localizationDictionary>
 

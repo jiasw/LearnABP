@@ -7,9 +7,10 @@ using System.Text;
 
 namespace HelloABP.PhoneBooks.Dtos
 {
-    [AutoMap(typeof(Person))]
-    public class PersonListDto:FullAuditedEntityDto<long>
+    [AutoMapFrom(typeof(Person))]
+    public class PersonListDto : FullAuditedEntityDto<long>
     {
+        public long Id { get; set; }
         public string Name { get; set; }
 
         public string Email { get; set; }

@@ -12,9 +12,12 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Abp.Linq.Extensions;
 using AutoMapper;
+using Abp.Authorization;
+using HelloABP.Authorization;
 
 namespace HelloABP.PhoneBooks
 {
+    
     public class PersonAppService : HelloABPAppServiceBase, IPersonAppService
     {
         private readonly IRepository<Person,long> _personRepository;
