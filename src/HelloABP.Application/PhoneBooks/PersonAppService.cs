@@ -94,11 +94,11 @@ namespace HelloABP.PhoneBooks
 
         }
 
-        public async Task<PersonListDto> GetPersonByIDAsync(NullableIdDto<long> input)
+        public async Task<PersonEditDto> GetPersonByIDAsync(NullableIdDto<long> input)
         {
           var person=  await _personRepository.GetAsync(input.Id.Value);
 
-            return _mapper.Map<PersonListDto>(person);
+            return _mapper.Map<PersonEditDto>(person);
         }
     }
 }

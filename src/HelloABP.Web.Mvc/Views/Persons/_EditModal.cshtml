@@ -1,48 +1,34 @@
-﻿@using HelloABP.Web.Models.Roles
-@using HelloABP.Web.Models.Common.Modals
-@model EditRoleModalViewModel
+﻿@using HelloABP.Web.Models.Common.Modals
+@model HelloABP.PhoneBooks.Dtos.PersonEditDto
 @{
     Layout = null;
 }
 @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditRole")))
 <form name="RoleEditForm" role="form" class="form-horizontal">
-    <input type="hidden" name="Id" value="@Model.Role.Id" />
-    <input type="hidden" name="IsStatic" value="@(Model.Role.IsStatic.ToString())" />
+    <input type="hidden" name="Id" value="@Model.Id" />
     <div class="modal-body">
         <div class="form-group row required">
-            <label class="col-md-3 col-form-label" for="rolename">@L("RoleName")</label>
+            <label class="col-md-3 col-form-label" for="rolename">@L("Name")</label>
             <div class="col-md-9">
-                <input id="rolename" class="form-control" type="text" name="Name" value="@Model.Role.Name" @(Model.Role.IsStatic ? "disabled" : "") required maxlength="32" minlength="2">
+                <input id="rolename" class="form-control" type="text" name="Name" value="@Model.Name"  required maxlength="32" minlength="2">
             </div>
         </div>
         <div class="form-group row required">
-            <label class="col-md-3 col-form-label" for="displayname">@L("DisplayName")</label>
+            <label class="col-md-3 col-form-label" for="displayname">@L("Address")</label>
             <div class="col-md-9">
-                <input id="displayname" type="text" class="form-control" name="DisplayName" value="@Model.Role.DisplayName" required maxlength="32" minlength="2">
+                <input id="displayname" type="text" class="form-control" name="Address" value="@Model.Address" required maxlength="32" minlength="2">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-md-3 col-form-label" for="role-description">@L("RoleDescription")</label>
+            <label class="col-md-3 col-form-label" for="role-description">@L("EmailAddress")</label>
             <div class="col-md-9">
-                <textarea id="role-description" class="form-control" name="Description">@Model.Role.Description</textarea>
+                <textarea id="role-description" class="form-control" name="Email">@Model.Email</textarea>
             </div>
         </div>
-        <div class="form-group row">
-            <label class="col-md-3 col-form-label">@L("Permissions")</label>
-            <div class="col-md-9">
-                <div class="row">
-                    @foreach (var permission in Model.Permissions)
-                    {
-                        <div class="col-md-6">
-                            <input type="checkbox" name="permission" value="@permission.Name" id="@($"permission{permission.Name}")" @(Model.HasPermission(permission) ? "checked" : "") @(Model.Role.IsStatic ? "disabled" : "") />
-                            <label for="@($"permission{permission.Name}")">@permission.DisplayName</label>
-                        </div>
-                    }
-                </div>
-            </div>
-        </div>
+        
     </div>
     @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
 </form>
 
-<script src="~/view-resources/Views/Roles/_EditModal.js" asp-append-version="true"></script>
+<script src="~/view-resources/Views/Persons/_EditModal.js" asp-append-version="true"></script>
+

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace HelloABP.PhoneBooks.Dtos
 {
-    [AutoMapTo(typeof(Person))]
+    [AutoMap(typeof(Person))]
     public class PersonEditDto
     { 
        public long Id { get; set; }

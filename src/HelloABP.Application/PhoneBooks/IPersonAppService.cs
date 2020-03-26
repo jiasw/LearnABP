@@ -20,7 +20,7 @@ namespace HelloABP.PhoneBooks
         /// 根据ID获取用户信息
         /// </summary>
         /// <returns></returns>
-        Task<PersonListDto> GetPersonByIDAsync(NullableIdDto<long> input);
+        Task<PersonEditDto> GetPersonByIDAsync(NullableIdDto<long> input);
         /// <summary>
         /// 新增修改联系人信息
         /// </summary>
